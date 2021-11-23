@@ -28,7 +28,7 @@ fun main (args: Array<String>) {
 
     if (solvedSuDoku != null) {
         println()
-        println(solvedSuDoku.getCount().toString()+" attempts")
+        println(solvedSuDoku.getCount().toString()+" iterations")
         println("SuDoku was solved successfully")
         println("-----------------------")
         solvedSuDoku.print()
@@ -36,7 +36,7 @@ fun main (args: Array<String>) {
     }
     else {
         println()
-        println(mySudoku.getCount().toString()+" attempts")
+        println(mySudoku.getCount().toString()+" iterations")
         println("No solution was found")
     }
 
